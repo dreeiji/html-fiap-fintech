@@ -1,0 +1,300 @@
+/* fundo = #00cc99;
+branco = #fffdfa;
+cinza = #8d8d8d;
+laranja = #ffb178;
+preto = #1e1e1e;
+
+font-antonio: Antonio;
+font-roboto: Roboto; */
+
+@import url("https://fonts.googleapis.com/css2?family=Antonio&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #00cc99;
+  font-family: font-roboto;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 32px;
+  color: white;
+  margin: 15px;
+}
+
+.title a {
+  cursor: pointer;
+  color: white;
+}
+
+.avatar {
+  margin-right: 10px;
+}
+
+.notifications {
+  display: flex;
+}
+
+.notifications button {
+  margin-left: 5px;
+}
+
+h1 {
+  color: white;
+  font-family: "Antonio", sans-serif;
+  text-transform: uppercase;
+  margin-left: 5%;
+}
+
+.rectangle {
+  margin-top: 30px;
+  color: white;
+  background-color: #003399;
+  width: 220px;
+  height: 60px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.rectangle p {
+  font-family: "Antonio", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 12px;
+  margin-right: 10px;
+}
+
+.main {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main > .card-lucro {
+  background-color: #fffdfa;
+  width: 220px;
+  height: 160px;
+  border-radius: 25px;
+  box-shadow: 8px 11px 15px -8px rgba(0, 0, 0, 0.3);
+}
+
+.main > .card-lucro > .card-body-lucro {
+  display: flex;
+  flex-direction: column;
+}
+
+.main > .card-lucro > .card-body-lucro {
+  font-family: "Antonio", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.card-title-lucro {
+  margin-top: 10px;
+  margin-left: 30px;
+  color: #00cc99;
+  font-size: 25px;
+}
+
+.card-sub {
+  margin-left: 30px;
+  font-family: "Antonio", sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #8d8d8d;
+}
+
+.card-text-lucro {
+  margin-left: 30px;
+  font-family: "Antonio", sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #1e1e1e;
+}
+
+.lucroicon {
+  color: #00cc99;
+  font-size: small;
+  margin-left: 5px;
+  margin-bottom: 8px;
+}
+
+.main > .card-gasto {
+  background-color: #fffdfa;
+  width: 220px;
+  height: 160px;
+  border-radius: 25px;
+  box-shadow: 8px 11px 15px -8px rgba(0, 0, 0, 0.3);
+}
+
+.gastoicon {
+  color: #ffb178;
+  font-size: small;
+  margin-left: 5px;
+  margin-bottom: 8px;
+  transform: rotate(180deg);
+}
+
+.card-title-gasto {
+  margin-top: 10px;
+  margin-left: 30px;
+  color: #ffb178;
+  font-size: 25px;
+}
+
+.main > .card-gasto > .card-body-gasto {
+  display: flex;
+  flex-direction: column;
+}
+
+.main > .card-gasto > .card-body-gasto {
+  font-family: "Antonio", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.card-text-gasto {
+  margin-left: 30px;
+  font-family: "Antonio", sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #1e1e1e;
+}
+
+.cad_entrada {
+  background-color: #fffdfa;
+  width: 220px;
+  height: 80px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cad_entrada p {
+  font-family: "Antonio", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-top: 12px;
+  color: #00cc99;
+}
+
+.cad_saida {
+  background-color: #fffdfa;
+  width: 220px;
+  height: 160px;
+  border-radius: 25px;
+}
+
+.cad_saida {
+  background-color: #fffdfa;
+  width: 220px;
+  height: 80px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cad_saida p {
+  font-family: "Antonio", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-top: 12px;
+  color: #ffb178;
+}
+
+.rec_entrada {
+  width: 330px;
+  height: 80px;
+  background-color: #fffdfa;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rec_entrada p {
+  font-family: "Antonio", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-top: 12px;
+  color: #ffb178;
+}
+
+.rec_saida {
+  background-color: #fffdfa;
+  width: 220px;
+  height: 80px;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.rec_saida {
+  width: 330px;
+  height: 80px;
+  background-color: #fffdfa;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rec_saida:hover {
+  background-color: #8d8d8d;
+}
+
+.rec_saida p {
+  font-family: "Antonio", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-top: 12px;
+  color: #00cc99;
+}
+
+.navbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  background-color: #003399;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px;
+  font-size: 40px;
+}
+
+.navbar a:hover {
+  color: #ffb178;
+}
